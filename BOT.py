@@ -40,7 +40,7 @@ for xd in range(10000):
     i='0'
     j=random.randrange(4200,6000)
     k=random.randrange(40,200)
-    l='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/432.0.0.29.102;]'
+    l='Mobile Safari/537.36'
     uaku2=f'{a} {b}; {c} {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
 #--------------------- [ CODE ] -------------------#
