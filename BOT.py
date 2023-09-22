@@ -181,7 +181,7 @@ def sexx(ids,passlist):
                                         uid = ids
                                 if uid in oks:pass
                                 else:
-                                        print('\r\r\033[38;5m196m[+] [BHOOT-CP] '+str(uid)+' \_/ '+pas+'\033[1;37m')
+                                        print('\r\r\033[38;5;196m[+] [BHOOT-CP] '+str(uid)+' \_/ '+pas+'\033[1;37m')
                                         open('/sdcard/X-CP.txt','a').write(str(uid)+'|'+pas+'\n')
                                         cps.append(str(ids))
                                         break
