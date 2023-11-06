@@ -161,7 +161,7 @@ def sexx(ids,passlist):
                                 'Authorization':f'OAuth {accessToken}',
                                 'X-FB-Friendly-Name':'authenticate',
                                 'X-FB-Connection-Type':'unknown',
-                                'User-Agent':'Davik/2.1.0 (Linux; U; Android 8.0.1; CPH8900 Build/TP1A.220905.001) [FBAN/FB4A;FBAV/246.0.0.22.130;FBBV/24053418;FBDM/{density=3.0,width=720,height=1080};FBLC/en_US;FBCR/Nepal_Telecom;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/CPH8900;FBSV/8.5.5;FBOP/1;FBCA/armeabi-v7a:armeabi;]',
+                                'User-Agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 16_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20G81 [FBAN/FBIOS;FBAV/439.1.0.36.116;FBBV/532746663;FBDV/iPhone15,3;FBMD/iPhone;FBSN/iOS;FBSV/16.6.1;FBSS/3;FBID/phone;FBLC/it_IT;FBOP/5;FBRV/534386637]',
                                 'Accept-Encoding':'gzip, deflate',
                                 'Content-Type': 'application/x-www-form-urlencoded',
                                 'X-FB-HTTP-Engine': 'Liger'
