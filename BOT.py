@@ -29,7 +29,6 @@ loop=0
 oks=[]
 cps=[]
 twf=[]
-uak
 ugen=[]
 for xd in range(10000):
     a='Mozilla/5.0 (Linux; U; Android'
