@@ -51,6 +51,9 @@ kkkkki = random.choice(['SM-G920F','NRD90M', 'SM-T535','LRX22G', 'SM-T231','KOT4
 def morshed3():
         ua = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/359.0.0.9.79;FBBV/32495570;FBDM/{density=2.0,width=1080,height=1920};FBLC/en_PK;FBRV/59404110;FBCR/BASE;FBMF/Samsung;FBBD/Samsung;FBPN/com.facebook.katana;FBDV/SM-F926B;FBSV/10.2.4;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
         return ua
+def iAmMethod3Ua():
+	ua = 'Mozilla/5.0 (Linux; Android 11; Realme GT Build/RKQ1.200903.032; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.124 Mobile Safari/537.36 [FBAN/FB4A; FBAV/345.0.0.39.93; FBPN/com.facebook.katana; FBLC/en_US; FBBV/283046384; FBCR/; FBMF/Realme; FBBD/Realme; FBDV/GT; FBSV/11; FBCA/armeabi-v7a:;]','Mozilla/5.0 (Linux; Android 10; Realme Narzo 30 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.124 Mobile Safari/537.36 [FBAN/FB4A; FBAV/345.0.0.39.93; FBPN/com.facebook.katana; FBLC/en_US; FBBV/283046384; FBCR/; FBMF/Realme; FBBD/Realme; FBDV/Narzo 30; FBSV/10; FBCA/armeabi-v7a:;]','Mozilla/5.0 (Linux; Android 11; Realme 8 Pro Build/RKQ1.200903.032; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.124 Mobile Safari/537.36 [FBAN/FB4A; FBAV/345.0.0.39.93; FBPN/com.facebook.katana; FBLC/en_US; FBBV/283046384; FBCR/; FBMF/Realme; FBBD/Realme; FBDV/8 Pro; FBSV/11; FBCA/armeabi-v7a:;]','Mozilla/5.0 (Linux; Android 10; Realme X7 Pro Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.124 Mobile Safari/537.36 [FBAN/FB4A; FBAV/345.0.0.39.93; FBPN/com.facebook.katana; FBLC/en_US; FBBV/283046384; FBCR/; FBMF/Realme; FBBD/Realme; FBDV/X7 Pro; FBSV/10; FBCA/armeabi-v7a:;]','Mozilla/5.0 (Linux; Android 10; Realme C11 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.124 Mobile Safari/537.36 [FBAN/FB4A; FBAV/345.0.0.39.93; FBPN/com.facebook.katana; FBLC/en_US; FBBV/283046384; FBCR/; FBMF/Realme; FBBD/Realme; FBDV/C11; FBSV/10; FBCA/armeabi-v7a:;]'
+	return ua
 #--------------------- [ CODE ] -------------------#
 W='\033[1;37m' #WHITE
 G='\033[38;5;46m'
@@ -161,7 +164,7 @@ def sexx(ids,passlist):
                                 'Authorization':f'OAuth {accessToken}',
                                 'X-FB-Friendly-Name':'authenticate',
                                 'X-FB-Connection-Type':'unknown',
-                                'User-Agent':'[FBAN/FB4A;FBAV/164.0.0.27.78;FBBV/31625020;FBDM/{density=1.5,width=1280,height=720};FBLC/en_US;FBRV/45649700;FBCR/Salaam Telecom;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-T231;FBSV/7.2.2;FBOP/1;FBCA/armeabi-v7a:armeabi;]',
+                                'User-Agent':iAmMethod3Ua(),
                                 'Accept-Encoding':'gzip, deflate',
                                 'Content-Type': 'application/x-www-form-urlencoded',
                                 'X-FB-HTTP-Engine': 'Liger'
